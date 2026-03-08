@@ -20,6 +20,3 @@
 *   **Recall Disparity**: The model shows a high recall for **NonToxic** cases (96%) but a low recall for **Toxic** cases (9%).
 *   **ROC-AUC**: The model achieved an ROC-AUC score of **0.60**.
 
-### Areas of Interest & Next Steps
-*   **Address Imbalance**: The primary area of interest is improving the detection of the minority 'Toxic' class. 
-*   **Recommendations**: Future iterations should consider **SMOTE (Oversampling)**, adjusting **class weights**, or optimizing the model using **F1-Score** or **Balanced Accuracy** as the primary metric instead of standard accuracy.
